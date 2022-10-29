@@ -1,0 +1,40 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+img {
+  max-width: 100vh;
+}
+p {
+    text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+header {
+    background-color: rgb(221, 221, 221);
+}
+img {
+    max-width: 100%;
+}
+
+/*  
+    Media Queries
+*/
+@media (min-width: 320px) {
+    .head-container, .pages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-basis: 320px;
+        align-items: center;
+    }
+    .bottom-nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
