@@ -5,6 +5,9 @@
 img {
   max-width: 100vh;
 }
+a {
+    text-decoration: none;
+}
 p {
     text-align: center;
     margin-top: 6px;
@@ -64,6 +67,9 @@ ul {
         justify-content: space-between;
         padding: 0;
     }
+    .rest {
+        display: none;
+    }
 }
 
 @media (min-width: 768px){
@@ -98,6 +104,16 @@ ul {
     .interested {
         margin-left: 20%;
         margin-right: 20%;
+    }
+    .rest {
+        display: block;
+        margin-right: 20px;
+    }
+    .item-2 {
+        display: none;
+    }
+    .item-1 {
+        flex: 1;
     }
     
 @media (min-width: 1024px){
